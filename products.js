@@ -1,8 +1,7 @@
 import { products } from "./itemsArray.js";
 
 document.addEventListener('DOMContentLoaded', () => {
-    const me = products
-    console.log(me)
+
 
     const list = document.getElementById('products-list');
     const category = document.querySelector('#category');
@@ -32,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             //check first whether a category has been selected if not then it will return true making it so that it returns all the products 
             const categoryMatch = selectedCategory ? selectedCategory === product.category : true;
-            return condtionMatch && categoryMatch && product.price >= selectedPrice;
+            return condtionMatch && categoryMatch && product.price <= selectedPrice;
         })
 
         renderProducts(filteredProducts)
