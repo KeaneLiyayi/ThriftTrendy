@@ -1,0 +1,136 @@
+body {
+    
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+header {
+    
+    background: #0e0b0b;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+.products {
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+  
+}
+
+.item {
+  text-decoration: none;
+  border: 1px solid #ddd; 
+  width: 250px;
+  padding: 15px; 
+  text-align: center; 
+  display: flex; 
+  flex-direction: column; 
+  background-color: #fff; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; 
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.item img {
+  width: 100%; 
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+
+
+h3 {
+  margin: 10px 0 5px; 
+  font-weight: 600; 
+}
+
+.item-content {
+  padding: 10px;
+  text-align: center;
+}
+
+.item-content h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.item-content p {
+  margin: 4px 0;
+  font-size: 16px;
+  color: #6b3737;
+}
+
+
+.item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-4px); 
+  cursor: pointer; 
+}
+
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 20px; /* Added margin for spacing */
+}
+
+  .product-collection {
+    display: flex;
+    gap: 40px;
+    border-radius: 8px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.custom-select {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 270px;
+    
+}
+
+.select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+
+  

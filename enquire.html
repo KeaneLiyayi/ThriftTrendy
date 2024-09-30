@@ -1,0 +1,165 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thrift Trendy</title>
+    <link rel="stylesheet" href="enquire.css">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Our Collection</a></li>
+                <li><a href="enquire.html">Sell to Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <h2 align="center">Intrested in selling your clothes!</h2>
+    <main>
+
+
+
+
+
+
+        <form action="submit-form.php" method="POST">
+            <div id="personal">
+                <div>
+
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+
+            </div>
+            <section>
+
+                <div id="typeofproduct">
+                    <h3>Product of Submission</h3>
+                    <div class="radio-group">
+                        <div>
+
+                            <input type="radio" id="shirt" name="product" value="Shirt">
+                            <label for="shirt">Shirt</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="hoody" name="product" value="Hoody">
+                            <label for="hoody">Hoody</label>
+
+                        </div>
+                        <div>
+                            <input type="radio" id="pants" name="product" value="Pants">
+                            <label for="pants">Pants</label>
+
+                        </div>
+                        <div>
+                            <input type="radio" id="jacket" name="product" value="Jacket">
+                            <label for="jacket">Jacket</label>
+
+                        </div>
+
+
+
+
+
+
+                    </div>
+                </div>
+                <div id="typeofproduct">
+                    <h3>Condition of the clothing</h3>
+                    <div class="radio-group">
+                        <div>
+
+                            <input type="radio" id="faded" name="product" value="faded">
+                            <label for="faded">Faded gem</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="Good" name="product" value="Good">
+                            <label for="Good">Good</label>
+
+                        </div>
+                        <div>
+                            <input type="radio" id="very good" name="product" value="Very Good">
+                            <label for="very good">Very Good</label>
+
+                        </div>
+                        <div>
+                            <input type="radio" id="excellent" name="product" value="Excellent">
+                            <label for="excellent">Excellent</label>
+
+                        </div>
+
+
+
+
+
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+            <div class="form-container">
+                <div class="select-container">
+                    <h3>Which brand is the clothing</h3>
+                    <select name="product" id="product-select">
+                        <option value="">Select a product</option>
+                        <option value="nike">Nike</option>
+                        <option value="adidas">Adidas</option>
+                        <option value="puma">Puma</option>
+                        <option value="bape">Bape</option>
+                        <option value="dickies">Dickies</option>
+                        <option value="asics">VLONE</option>
+                        <option value="dodeca">Dodeca</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="upload-container">
+                    <h3>Please provide a clear picture of the clothing</h3>
+                    <label for="fileUpload" class="upload-button">
+                        Upload a picture of the clothing
+                        <input type="file" id="fileUpload" style="display: none;" />
+                    </label>
+                </div>
+            </div>
+            <div>
+                <div id="price">
+                    <label for="price">Price:</label>
+                    <input min="0" type="number">
+                </div>
+                <div id="date">
+                    <label for="date">Approximate Date of Purchase:</label>
+                    <input type="date">
+                </div>
+
+            </div>
+
+
+            <div>
+                <label for="message">Any additional information </label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+
+
+            <input type="submit" value="Send Inquiry">
+        </form>
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thrift Trendy</title>
+    <link rel="stylesheet" href="product.css">
+    <script type="module" src="products.js"></script>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Our Collection</a></li>
+                <li><a href="enquire.html">Sell to Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="product-collection">
+        <div class="custom-select">
+            <h3>Filter products :</h3>
+            <select id="category" class="select">
+                <option value="" selected>All</option>
+                <option value="hoody">Hoody</option>
+                <option value="shirt">Shirt</option>
+                <option value="pant">Pants</option>
+                <option value="jacket">Jackets</option>
+            </select>
+            <select id="price" class="select">
+                <option value="" selected>Price Range</option>
+                <option value="2000">Above Ksh 2000</option>
+                <option value="1000">Above Ksh 1000</option>
+                <option value="500">Above Ksh 500</option>
+
+            </select>
+            <select id="condition" class="select">
+                <option value="" selected>Condition</option>
+                <option value="good">Good</option>
+                <option value="very good">Very Good</option>
+                <option value="excellent">Excellent</option>
+                <option value="flawed">Flawed Gem</option>
+
+
+            </select>
+        </div>
+        <div class="product-items">
+            <ul class="products" id="products-list">
+
+
+            </ul>
+        </div>
+
+
+
+
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+body {
+    
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+header {
+    
+    background: #0e0b0b;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5.8rem;
+    padding: 0;
+    margin: 30px;
+}
+p{
+    padding-left: 35px;
+    width: 475px;
+    text-align: justify;
+}
+main{
+    display: flex;
+    border: #0e0b0b 2px;
+}
+.product-images{
+    width: full;
+    flex:1;
+    padding: 20px;
+}
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

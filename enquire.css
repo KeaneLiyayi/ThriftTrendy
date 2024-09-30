@@ -1,0 +1,202 @@
+body, h2, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background: #0e0b0b;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+    background: #fff;
+    margin: 0 30px;
+}
+
+form {
+    background: #f7f7f7;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+
+#personal {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#personal > div {
+    flex: 1;
+    margin: 0 10px;
+}
+
+#personal label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#typeofproduct {
+    margin: 20px;
+}
+
+.radio-group {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.radio-group div {
+    display: flex;
+    align-items: center;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 8px;
+}
+
+section {
+    display: flex;
+}
+
+section > div {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.form-container {
+    display: grid;
+    align-content: start;
+    gap: 20px;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.select-container {
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.2s;
+}
+
+select:focus {
+    outline: none;
+}
+
+.upload-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.upload-button:hover {
+    background-color: #0056b3;
+}
+#price, #date {
+    margin: 20px 0;
+}
+
+#price label, #date label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#price input[type="number"], #date input[type="date"]{
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 5px;
+    resize: vertical; /* Allows vertical resizing only */
+}
